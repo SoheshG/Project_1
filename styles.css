@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background: url('coffee.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 90% 0%;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 35px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 30px;
+}
+/*
+hi
+*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {
+
+    color: rgb(24, 14, 14);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: 70px;
+}
+#home>p{
+    font-size: 50px;
+    font-family:sans-serif;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+#about, #menu, #contact {
+    
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+footer section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about>h2{
+    font-size: 40px;
+}
+
+#menu>h2{
+    margin-left:20px;
+    font-size: 40px;
+    
+}
+
+#menu>ul{
+    font-size:27px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+#contact{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#about>p{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
